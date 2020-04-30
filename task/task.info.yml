@@ -1,0 +1,4 @@
+name: "Task"
+description: "To alter site information form"
+type: module
+core: 8.x

@@ -1,0 +1,8 @@
+/**
+*Created a config variable to hold the value of the new field insid
+*/
+task.site:
+  mapping:
+    siteapikey:
+      type: label
+      label: 'Site API Keys'

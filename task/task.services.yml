@@ -1,0 +1,8 @@
+/**
+*Added an Event Subscriber
+*/
+services:
+  task.route_subscriber:
+    class: Drupal\task\Routing\RouteSubscriber
+    tags:
+      - { name: event_subscriber }
