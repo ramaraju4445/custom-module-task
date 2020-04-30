@@ -1,5 +1,5 @@
 # custom-module-task
-
+#Requirements
 This module needs to alter the existing Drupal "Site Information" form. Specifics:
 
 * A new form text field named "Site API Key" needs to be added to the "Site Information" form with the default value of “No API Key yet”.
@@ -8,3 +8,8 @@ This module needs to alter the existing Drupal "Site Information" form. Specific
 * When this form is visited after the "Site API Key" is saved, the field should be populated with the correct value.
 * The text of the "Save configuration" button should change to "Update Configuration".
 * This module also provides a URL that responds with a JSON representation of a given node with the content type "page" only if the previously submitted API Key and a node id (nid) of an appropriate node are present, otherwise it will respond with "access denied".
+
+Time Taken
+
+It was taken 4 hours to implement this module and testing. 
+Note: I don't have any Drupal8 development experience
